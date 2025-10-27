@@ -38,8 +38,10 @@ require("core.autocmds")
 require("core.keymaps")
 require("user.ui")
 
+--windows only
 --terminal: cmd to powershell
 vim.o.shell = "powershell.exe"
 vim.o.shellcmdflag = "-NoLogo -NoProfile -ExecutionPolicy RemoteSigned -Command"
 vim.o.shellquote = ""
 vim.o.shellxquote = ""
+
